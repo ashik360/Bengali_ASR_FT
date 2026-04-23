@@ -1,7 +1,8 @@
 # Whisper Bengali ASR Fine-Tuning with LoRA
 
 This repository contains Jupyter notebooks and code for fine‑tuning [OpenAI Whisper](https://huggingface.co/openai/whisper-small) on Bengali (`bn`) speech recognition tasks.  
-We leverage Hugging Face datasets, transformers, and LoRA (Low‑Rank Adaptation) to efficiently adapt Whisper for Bengali Automatic Speech Recognition (ASR).
+We leverage Hugging Face datasets, transformers, and **LoRA (Low‑Rank Adaptation)** to efficiently adapt Whisper for Bengali Automatic Speech Recognition (ASR).  
+The workflow includes dataset analysis, training, evaluation, visualization, and final inference with merged LoRA weights.
 
 ---
 
@@ -25,6 +26,6 @@ We leverage Hugging Face datasets, transformers, and LoRA (Low‑Rank Adaptation
 Clone the repository and install dependencies:
 
 ```bash
-git clone https://github.com/ashik360/Bengali_ASR_FT.git
-cd whisper-bengali-asr
+git clone https://github.com/your-username/Bengali_ASR_FT.git
+cd Bengali_ASR_FT
 pip install -r requirements.txt
